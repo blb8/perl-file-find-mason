@@ -24,3 +24,15 @@ foreach my $target (@ARGV) {
 	my @found=File::Find::Mason::find({wanted=>undef,%opt{qw/verbose/}},$target);
 	if(@found) { print join("\n",@found,"") }
 }
+
+__END__
+
+=head1 NAME
+
+masonfind.pl - a tool to quickly find Mason files
+
+=head1 SYNOPSIS
+
+	masonfind.pl [--verbose] file1 dir2 ...
+
+=cut

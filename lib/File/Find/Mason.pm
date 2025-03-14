@@ -4,7 +4,7 @@ use strict;
 use warnings;
 use File::Find qw//;
 
-our $VERSION='0.0.1';
+our $VERSION='0.0.2';
 
 my %default=(
 	verbose    =>0,
@@ -80,7 +80,7 @@ File::Find::Mason - Find files that contain Mason components
 
 =head1 VERSION
 
-Version 0.0.1
+Version 0.0.2
 
 =head1 SYNOPSIS
 
