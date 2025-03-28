@@ -28,5 +28,9 @@
 				"Test::More": "1.302209"
 			}
 		}
+	},
+	"resources" : {
+		"bugtracker": {"web":"https://github.com/blb8/perl-file-find-mason/issues"},
+		"repository": {"url":"git://github.com/blb8/perl-file-find.git"}
 	}
 }
